@@ -1,0 +1,17 @@
+[
+  {"id": "T01", "tipo": "respondivel", "pergunta": "A rua aqui de casa tá cheia de buraco, a quem eu reclamo?", "gold_docs": ["tapa_buraco_sapopemba", "tapa_buraco_ipiranga"], "fatos": ["156"]},
+  {"id": "T02", "tipo": "respondivel", "pergunta": "Quanto tempo demora para trocarem a lâmpada queimada do poste?", "gold_docs": ["iluminacao_manutencao", "guia_zeladoria_smsub"], "fatos": ["24 horas"]},
+  {"id": "T03", "tipo": "respondivel", "pergunta": "O poste de concreto da esquina é responsabilidade de quem?", "gold_docs": ["iluminacao_manutencao"], "fatos": ["ENEL|concession[aá]ria"]},
+  {"id": "T04", "tipo": "respondivel", "pergunta": "Posso levar restos de poda de árvore no Ecoponto?", "gold_docs": ["ecopontos", "guia_zeladoria_smsub"], "fatos": ["poda"]},
+  {"id": "T05", "tipo": "respondivel", "pergunta": "Quais documentos preciso para pedir indenização pelo pneu que estourou no buraco?", "gold_docs": ["reparacao_danos"], "fatos": ["or[cç]amento", "nota fiscal|CRLV|propriedade|foto"]},
+  {"id": "T06", "tipo": "respondivel", "pergunta": "Qual o prazo para a Prefeitura atender uma denúncia de entulho jogado na rua?", "gold_docs": ["guia_zeladoria_smsub"], "fatos": ["60 dias"]},
+  {"id": "T07", "tipo": "respondivel", "pergunta": "Barulho de obra pública à noite, o PSIU fiscaliza?", "gold_docs": ["psiu_barulho"], "fatos": ["n[aã]o"]},
+  {"id": "T08", "tipo": "respondivel", "pergunta": "Como peço para colocarem iluminação numa praça que é escura?", "gold_docs": ["iluminacao_ampliacao", "iluminacao_faq", "iluminacao_manutencao"], "fatos": ["Subprefeitura|SAIP|156|0800"]},
+  {"id": "T09", "tipo": "respondivel", "pergunta": "Tem mato alto no canteiro central da avenida, em quanto tempo cortam?", "gold_docs": ["guia_zeladoria_smsub"], "fatos": ["30 dias"]},
+  {"id": "T10", "tipo": "respondivel", "pergunta": "O cata-bagulho recolhe colchão?", "gold_docs": ["cata_bagulho"], "fatos": ["colch"]},
+  {"id": "T11", "tipo": "sem_resposta", "pergunta": "Qual o horário da coleta de lixo reciclável na Mooca?", "nota": "Não há coleta seletiva nem dados da Mooca na base."},
+  {"id": "T12", "tipo": "sem_resposta", "pergunta": "Quanto custa a taxa do lixo em São Paulo?", "nota": "Taxa do lixo não consta na base."},
+  {"id": "T13", "tipo": "fora_escopo", "pergunta": "Qual a previsão do tempo para amanhã?"},
+  {"id": "T14", "tipo": "ambigua", "pergunta": "Quero fazer uma denúncia."},
+  {"id": "T15", "tipo": "multiturno", "turnos": ["O bar da minha rua toca música alta toda sexta.", "Preciso dar meu nome?"], "gold_docs": ["psiu_barulho"], "fatos": ["an[oô]nim"]}
+]

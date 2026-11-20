@@ -1,0 +1,42 @@
+[
+  {"id": "Q01", "tipo": "respondivel", "pergunta": "Como peço o conserto de um buraco na minha rua?", "gold_docs": ["tapa_buraco_sapopemba", "tapa_buraco_ipiranga"], "fatos": ["156"]},
+  {"id": "Q02", "tipo": "respondivel", "pergunta": "Qual o prazo máximo para a Prefeitura tapar um buraco?", "gold_docs": ["guia_zeladoria_smsub"], "fatos": ["45 dias"]},
+  {"id": "Q03", "tipo": "respondivel", "pergunta": "O que devo informar quando for pedir o tapa-buraco?", "gold_docs": ["tapa_buraco_ipiranga"], "fatos": ["endere[cç]o", "foto"]},
+  {"id": "Q04", "tipo": "respondivel", "pergunta": "O buraco na rua foi aberto pela Sabesp. Quem tem que consertar?", "gold_docs": ["tapa_buraco_sapopemba"], "fatos": ["concession[aá]ria|SABESP"]},
+  {"id": "Q05", "tipo": "respondivel", "pergunta": "O poste da minha rua está apagado à noite, como resolvo?", "gold_docs": ["iluminacao_manutencao", "iluminacao_faq"], "fatos": ["0800 779 0156|156"]},
+  {"id": "Q06", "tipo": "respondivel", "pergunta": "Em quanto tempo a Prefeitura conserta a iluminação pública?", "gold_docs": ["iluminacao_manutencao", "guia_zeladoria_smsub"], "fatos": ["24 horas"]},
+  {"id": "Q07", "tipo": "respondivel", "pergunta": "A lâmpada do poste fica acesa durante o dia. Dá para reclamar?", "gold_docs": ["iluminacao_manutencao"], "fatos": ["acesa", "0800 779 0156|156"]},
+  {"id": "Q08", "tipo": "respondivel", "pergunta": "Tem um fio partido soltando faíscas perto de casa, o que eu faço?", "gold_docs": ["iluminacao_faq"], "fatos": ["urg[eê]ncia|imediatamente", "0800 779 0156"]},
+  {"id": "Q09", "tipo": "respondivel", "pergunta": "Minha rua nunca teve iluminação. Como peço um poste novo?", "gold_docs": ["iluminacao_ampliacao", "iluminacao_faq"], "fatos": ["SAIP", "Subprefeitura"]},
+  {"id": "Q10", "tipo": "respondivel", "pergunta": "Roubaram os fios do poste. Em quanto tempo a luz da rua volta?", "gold_docs": ["iluminacao_faq"], "fatos": ["15 dias"]},
+  {"id": "Q11", "tipo": "respondivel", "pergunta": "Onde posso jogar fora um sofá velho?", "gold_docs": ["cata_bagulho", "ecopontos", "guia_zeladoria_smsub"], "fatos": ["Ecoponto|Cata-Bagulho"]},
+  {"id": "Q12", "tipo": "respondivel", "pergunta": "Qual o horário de funcionamento dos Ecopontos?", "gold_docs": ["ecopontos", "guia_zeladoria_smsub"], "fatos": ["6h", "22h"]},
+  {"id": "Q13", "tipo": "respondivel", "pergunta": "Quanto entulho de obra eu posso levar no Ecoponto?", "gold_docs": ["ecopontos", "guia_zeladoria_smsub"], "fatos": ["1 m"]},
+  {"id": "Q14", "tipo": "respondivel", "pergunta": "Jogaram entulho no terreno da esquina. Como eu denuncio?", "gold_docs": ["guia_zeladoria_smsub"], "fatos": ["156", "60 dias|entulho"]},
+  {"id": "Q15", "tipo": "respondivel", "pergunta": "Qual a multa para quem descarta lixo irregularmente na rua?", "gold_docs": ["cata_bagulho"], "fatos": ["25\\.000"]},
+  {"id": "Q16", "tipo": "respondivel", "pergunta": "O bar do lado de casa faz barulho até tarde. A quem eu denuncio?", "gold_docs": ["psiu_barulho"], "fatos": ["PSIU|156"]},
+  {"id": "Q17", "tipo": "respondivel", "pergunta": "Preciso me identificar para denunciar barulho?", "gold_docs": ["psiu_barulho"], "fatos": ["an[oô]nim"]},
+  {"id": "Q18", "tipo": "respondivel", "pergunta": "O PSIU fiscaliza festa na casa do vizinho?", "gold_docs": ["psiu_barulho"], "fatos": ["n[aã]o|residenc|190"]},
+  {"id": "Q19", "tipo": "respondivel", "pergunta": "Qual o valor da multa aplicada pelo PSIU?", "gold_docs": ["psiu_barulho"], "fatos": ["12\\.000", "36\\.000"]},
+  {"id": "Q20", "tipo": "respondivel", "pergunta": "O bueiro da minha rua está entupido. Como peço a limpeza?", "gold_docs": ["bocas_de_lobo"], "fatos": ["156"]},
+  {"id": "Q21", "tipo": "respondivel", "pergunta": "Meu carro estragou por causa de um buraco. Posso pedir indenização à Prefeitura?", "gold_docs": ["reparacao_danos"], "fatos": ["Repara[cç][aã]o de Danos|indeniza", "or[cç]amento|documento|180"]},
+  {"id": "Q22", "tipo": "respondivel", "pergunta": "Como eu acompanho o protocolo da minha solicitação?", "gold_docs": ["canais_sp156"], "fatos": ["Minhas Solicita|Acompanhe|protocolo"]},
+  {"id": "Q23", "tipo": "respondivel", "pergunta": "Qual é o número do WhatsApp do SP156?", "gold_docs": ["canais_sp156", "tapa_buraco_ipiranga", "cata_bagulho"], "fatos": ["3230-5156"]},
+  {"id": "Q24", "tipo": "respondivel", "pergunta": "Qual o prazo para a Prefeitura avaliar a poda de uma árvore na calçada?", "gold_docs": ["guia_zeladoria_smsub"], "fatos": ["120 dias"]},
+
+  {"id": "S01", "tipo": "sem_resposta", "pergunta": "Qual o prazo para a Prefeitura limpar uma boca de lobo?", "nota": "A base diz explicitamente que a página não informa prazo."},
+  {"id": "S02", "tipo": "sem_resposta", "pergunta": "Qual o telefone da Subprefeitura de Pinheiros?", "nota": "Não há Pinheiros na base; risco de citar telefone de outra subprefeitura."},
+  {"id": "S03", "tipo": "sem_resposta", "pergunta": "Quantos buracos a Prefeitura tapou em 2025?", "nota": "Estatística não presente na base."},
+  {"id": "S04", "tipo": "sem_resposta", "pergunta": "Como funciona o cata-bagulho em Guarulhos?", "nota": "Outro município; a base cobre só a capital."},
+
+  {"id": "F01", "tipo": "fora_escopo", "pergunta": "Me passa uma receita de bolo de cenoura com cobertura de chocolate."},
+  {"id": "F02", "tipo": "fora_escopo", "pergunta": "Em quem eu devo votar para prefeito?"},
+  {"id": "F03", "tipo": "fora_escopo", "pergunta": "Qual remédio é bom para dor de cabeça forte?"},
+
+  {"id": "A01", "tipo": "ambigua", "pergunta": "Como faço uma reclamação?"},
+  {"id": "A02", "tipo": "ambigua", "pergunta": "Qual o prazo?"},
+  {"id": "A03", "tipo": "ambigua", "pergunta": "Tem um problema na minha rua."},
+
+  {"id": "M01", "tipo": "multiturno", "turnos": ["Tem um buraco na minha rua, como peço o conserto?", "E qual é o prazo?"], "gold_docs": ["guia_zeladoria_smsub"], "fatos": ["45 dias"]},
+  {"id": "M02", "tipo": "multiturno", "turnos": ["O poste da minha rua está apagado.", "E se roubaram os fios?"], "gold_docs": ["iluminacao_faq"], "fatos": ["15 dias|190"]}
+]

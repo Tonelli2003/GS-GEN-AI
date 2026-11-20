@@ -1,0 +1,746 @@
+{
+  "summary": {
+    "backend": "extractive",
+    "modelo": "extractive-baseline",
+    "respondiveis_n": 24,
+    "correcao_fatos_media": 0.521,
+    "correcao_todos_fatos": 0.458,
+    "aderencia_fontes (grounded)": 0.917,
+    "com_citacao": 1.0,
+    "precisao_citacao_media": 0.5,
+    "abstencao_indevida": 0.0,
+    "sem_resposta_ou_fora_n": 7,
+    "abstencao_correta_sem_evidencia": 0.571
+  },
+  "rows": [
+    {
+      "id": "Q01",
+      "tipo": "respondivel",
+      "pergunta": "Como peço o conserto de um buraco na minha rua?",
+      "contexto": [
+        "tapa_buraco_sapopemba#0",
+        "tapa_buraco_sapopemba#5",
+        "tapa_buraco_ipiranga#1",
+        "tapa_buraco_ipiranga#4"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Recapeamento: o Tapa-Buraco não substitui o recapeamento da rua. [2]\n- O Tapa-Buraco é o conserto do asfalto feito pela Prefeitura no local onde surgiu um buraco. [1]\n- Aplicativo SP156: selecione \"Rua e bairro\", depois \"Reparos em asfaltos\" e, em seguida, \"Tapa-buraco\". [3]\n- Buracos abertos por concessionárias: se o buraco foi aberto pela SABESP, pela COMGÁS ou por outra concessionária de serviços públicos, o fechamento e o conserto do asfalto são de responsabilidade dessa instituição. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.8,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.3333333333333333
+    },
+    {
+      "id": "Q02",
+      "tipo": "respondivel",
+      "pergunta": "Qual o prazo máximo para a Prefeitura tapar um buraco?",
+      "contexto": [
+        "guia_zeladoria_smsub#0",
+        "guia_zeladoria_smsub#2",
+        "guia_zeladoria_smsub#3",
+        "guia_zeladoria_smsub#4"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Prazo máximo de atendimento: 60 dias. [1]\n- Avaliação de árvore em calçada ou praça para poda ou remoção: prazo de 120 dias. [2]\n- Denúncia de poda ou remoção não autorizada: prazo de 60 dias. [2]\n- Tapa-buraco: 45 dias (remoção do asfalto deteriorado e preenchimento com asfalto novo). [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.7,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.3333333333333333
+    },
+    {
+      "id": "Q03",
+      "tipo": "respondivel",
+      "pergunta": "O que devo informar quando for pedir o tapa-buraco?",
+      "contexto": [
+        "tapa_buraco_ipiranga#2",
+        "tapa_buraco_ipiranga#1",
+        "tapa_buraco_ipiranga#0",
+        "tapa_buraco_ipiranga#3"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Aplicativo SP156: selecione \"Rua e bairro\", depois \"Reparos em asfaltos\" e, em seguida, \"Tapa-buraco\". [2]\n- O Tapa-Buraco é uma das ações de manutenção com maior número de demandas na cidade de São Paulo. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.769,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.0
+    },
+    {
+      "id": "Q04",
+      "tipo": "respondivel",
+      "pergunta": "O buraco na rua foi aberto pela Sabesp. Quem tem que consertar?",
+      "contexto": [
+        "tapa_buraco_sapopemba#5",
+        "tapa_buraco_sapopemba#0",
+        "tapa_buraco_sapopemba#1",
+        "tapa_buraco_sapopemba#3"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Recapeamento: o Tapa-Buraco não substitui o recapeamento da rua. [1]\n- Buracos abertos por concessionárias: se o buraco foi aberto pela SABESP, pela COMGÁS ou por outra concessionária de serviços públicos, o fechamento e o conserto do asfalto são de responsabilidade dessa instituição. [1]\n- O Tapa-Buraco é o conserto do asfalto feito pela Prefeitura no local onde surgiu um buraco. [2]\n- O asfalto antigo é removido em toda a área ao redor do buraco e o local é preenchido com asfalto novo. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.789,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.5
+    },
+    {
+      "id": "Q05",
+      "tipo": "respondivel",
+      "pergunta": "O poste da minha rua está apagado à noite, como resolvo?",
+      "contexto": [
+        "iluminacao_manutencao#1",
+        "iluminacao_manutencao#0",
+        "iluminacao_faq#3",
+        "iluminacao_manutencao#4"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Quando a iluminação está apagada ou piscando no período noturno. [1]\n- Quando um poste metálico foi atingido (abalroado) por um veículo. [1]\n- Quando há necessidade de reparo em lâmpada, luminária ou poste de luz metálico. [1]\n- Solicitação de reparo de lâmpada, luminária ou poste de luz metálico. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.667,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.0
+    },
+    {
+      "id": "Q06",
+      "tipo": "respondivel",
+      "pergunta": "Em quanto tempo a Prefeitura conserta a iluminação pública?",
+      "contexto": [
+        "iluminacao_manutencao#9",
+        "iluminacao_manutencao#2",
+        "iluminacao_manutencao#4",
+        "iluminacao_manutencao#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Telefone 0800 779 0156, da SP Regula Iluminação Pública. [2]\n- Decreto nº 61.172/2022: transfere à SP Regula a gestão, regulação e fiscalização do contrato de concessão da iluminação pública. [1]\n- Quando a iluminação está apagada ou piscando no período noturno. [4]\n- Quando a iluminação está acesa nos períodos da manhã e da tarde. [4]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.771,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        4
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.3333333333333333
+    },
+    {
+      "id": "Q07",
+      "tipo": "respondivel",
+      "pergunta": "A lâmpada do poste fica acesa durante o dia. Dá para reclamar?",
+      "contexto": [
+        "iluminacao_manutencao#1",
+        "iluminacao_manutencao#0",
+        "iluminacao_manutencao#4",
+        "iluminacao_manutencao#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Quando há necessidade de reparo em lâmpada, luminária ou poste de luz metálico. [1]\n- Solicitação de reparo de lâmpada, luminária ou poste de luz metálico. [2]\n- Quando a iluminação está acesa nos períodos da manhã e da tarde. [1]\n- Quando um poste metálico foi atingido (abalroado) por um veículo. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.667,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.5,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q08",
+      "tipo": "respondivel",
+      "pergunta": "Tem um fio partido soltando faíscas perto de casa, o que eu faço?",
+      "contexto": [
+        "iluminacao_faq#2",
+        "iluminacao_faq#1",
+        "iluminacao_faq#0",
+        "iluminacao_faq#3"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Todo problema interno, dentro de casa ou da empresa, como falta ou oscilação de energia, é de responsabilidade da distribuidora de energia. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.579,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.0
+    },
+    {
+      "id": "Q09",
+      "tipo": "respondivel",
+      "pergunta": "Minha rua nunca teve iluminação. Como peço um poste novo?",
+      "contexto": [
+        "iluminacao_ampliacao#1",
+        "iluminacao_faq#3",
+        "iluminacao_ampliacao#0",
+        "iluminacao_ampliacao#4"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Quando um local público não tem iluminação pública, ou seja, nunca foi instalado poste de iluminação no ponto desejado. [1]\n- Instalação de um novo ponto de iluminação pública em local que precisa de expansão do sistema. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.652,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.0
+    },
+    {
+      "id": "Q10",
+      "tipo": "respondivel",
+      "pergunta": "Roubaram os fios do poste. Em quanto tempo a luz da rua volta?",
+      "contexto": [
+        "iluminacao_faq#3",
+        "iluminacao_faq#9",
+        "iluminacao_faq#1",
+        "iluminacao_faq#4"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Quando a via passa a ter iluminação, a cobrança volta. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": false,
+      "suporte": 0.5,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.0
+    },
+    {
+      "id": "Q11",
+      "tipo": "respondivel",
+      "pergunta": "Onde posso jogar fora um sofá velho?",
+      "contexto": [
+        "cata_bagulho#1",
+        "ecopontos#1",
+        "cata_bagulho#0",
+        "cata_bagulho#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Móveis velhos, como camas, armários e sofás. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": false,
+      "suporte": 0.429,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q12",
+      "tipo": "respondivel",
+      "pergunta": "Qual o horário de funcionamento dos Ecopontos?",
+      "contexto": [
+        "ecopontos#2",
+        "ecopontos#0",
+        "ecopontos#3",
+        "ecopontos#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- A cidade tem cerca de 100 Ecopontos distribuídos pelas subprefeituras. [3]\n- Os Ecopontos recebem resíduos de construção e demolição de pequenos geradores e são geridos pela Secretaria Municipal das Subprefeituras (SMSUB). [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.68,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.0
+    },
+    {
+      "id": "Q13",
+      "tipo": "respondivel",
+      "pergunta": "Quanto entulho de obra eu posso levar no Ecoponto?",
+      "contexto": [
+        "ecopontos#3",
+        "ecopontos#1",
+        "ecopontos#0",
+        "guia_zeladoria_smsub#0"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Entulho de pequenas obras, até 1 m³. [2]\n- O Ecoponto não é solicitado individualmente: o próprio cidadão leva o material até a unidade. [1]\n- Locais de entrega voluntária e gratuita de pequenos volumes de entulho, grandes objetos e resíduos recicláveis. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.724,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.3333333333333333
+    },
+    {
+      "id": "Q14",
+      "tipo": "respondivel",
+      "pergunta": "Jogaram entulho no terreno da esquina. Como eu denuncio?",
+      "contexto": [
+        "guia_zeladoria_smsub#0",
+        "guia_zeladoria_smsub#1",
+        "guia_zeladoria_smsub#3",
+        "guia_zeladoria_smsub#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- tipo de local (terreno, córrego ou via pública);. [1]\n- Aciona a fiscalização municipal contra o descarte de entulho, terra ou resíduos acima de 50 kg em vias, passeios, canteiros, jardins e outros espaços públicos. [1]\n- Locais fixos de entrega voluntária que aceitam entulho de até 1 m³, grandes objetos como móveis, restos de poda e recicláveis. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.786,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.02,
+      "fatos_ok": 0.5,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q15",
+      "tipo": "respondivel",
+      "pergunta": "Qual a multa para quem descarta lixo irregularmente na rua?",
+      "contexto": [
+        "cata_bagulho#4",
+        "cata_bagulho#6",
+        "cata_bagulho#2",
+        "cata_bagulho#0"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- A multa não exclui outras sanções. [1]\n- Rua Álvares Penteado, 49, Centro. [2]\n- O descarte irregular de resíduos em vias públicas está sujeito a multa de R$ 25.000,00, com base no artigo 161 e Anexo VI da Lei nº 13.478/2002. [1]\n- A programação da sua rua deve ser consultada no calendário oficial da Subprefeitura da região. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.8,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.3333333333333333
+    },
+    {
+      "id": "Q16",
+      "tipo": "respondivel",
+      "pergunta": "O bar do lado de casa faz barulho até tarde. A quem eu denuncio?",
+      "contexto": [
+        "psiu_barulho#6",
+        "psiu_barulho#7",
+        "psiu_barulho#0",
+        "psiu_barulho#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Informações úteis na denúncia: endereço completo do estabelecimento, horário de maior incidência do barulho e tipo de atividade exercida. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.619,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q17",
+      "tipo": "respondivel",
+      "pergunta": "Preciso me identificar para denunciar barulho?",
+      "contexto": [
+        "psiu_barulho#6",
+        "psiu_barulho#7",
+        "psiu_barulho#3",
+        "psiu_barulho#0"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Identificação: o solicitante pode informar nome, endereço e telefone, que são mantidos sob sigilo, ou fazer uma solicitação anônima. [1]\n- Informações úteis na denúncia: endereço completo do estabelecimento, horário de maior incidência do barulho e tipo de atividade exercida. [1]\n- As medições podem ser feitas em frente ao local denunciado ou na residência de quem denuncia. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.771,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.5
+    },
+    {
+      "id": "Q18",
+      "tipo": "respondivel",
+      "pergunta": "O PSIU fiscaliza festa na casa do vizinho?",
+      "contexto": [
+        "psiu_barulho#7",
+        "psiu_barulho#1",
+        "psiu_barulho#0",
+        "psiu_barulho#8"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- O PSIU fiscaliza escolas?. [1]\n- O PSIU fiscaliza ruído em imóveis residenciais?. [1]\n- O PSIU fiscaliza bailes funk ou fluxos?. [1]\n- O PSIU fiscaliza ruído de veículos em movimento?. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.6,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q19",
+      "tipo": "respondivel",
+      "pergunta": "Qual o valor da multa aplicada pelo PSIU?",
+      "contexto": [
+        "psiu_barulho#7",
+        "psiu_barulho#0",
+        "psiu_barulho#1",
+        "psiu_barulho#8"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- O PSIU fiscaliza escolas?. [1]\n- O PSIU fiscaliza ruído em imóveis residenciais?. [1]\n- Escolas também não são fiscalizadas pelo PSIU. [3]\n- O PSIU fiscaliza bailes funk ou fluxos?. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.579,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.0
+    },
+    {
+      "id": "Q20",
+      "tipo": "respondivel",
+      "pergunta": "O bueiro da minha rua está entupido. Como peço a limpeza?",
+      "contexto": [
+        "bocas_de_lobo#3",
+        "bocas_de_lobo#1",
+        "bocas_de_lobo#0",
+        "bocas_de_lobo#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Rua Ulpiano da Costa Manso, 201. [1]\n- Central 156 / Portal SP156 (serviço \"Limpeza de bueiros, boca de lobo e poços de visita\"). [2]\n- A Prefeitura faz periodicamente a limpeza e a desobstrução de bocas de lobo (bueiros), ramais e galerias. [3]\n- Chat SP156 (WhatsApp (11) 3230-5156), que inclui a opção de solicitar limpeza de bueiros, boca de lobo e poços de visita. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.784,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.3333333333333333
+    },
+    {
+      "id": "Q21",
+      "tipo": "respondivel",
+      "pergunta": "Meu carro estragou por causa de um buraco. Posso pedir indenização à Prefeitura?",
+      "contexto": [
+        "reparacao_danos#0",
+        "reparacao_danos#1",
+        "reparacao_danos#4",
+        "reparacao_danos#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Solicitação de indenização para quem precisa fazer, ou já fez, o conserto de danos materiais causados por ação ou omissão da Prefeitura na prestação de serviços públicos. [1]\n- Este serviço é diferente do pedido de conserto (como o Tapa-Buraco): a reparação de danos pede o ressarcimento do prejuízo sofrido. [1]\n- Quando um bem material é danificado por ação ou omissão de um serviço público municipal, por exemplo um veículo danificado por um buraco na via ou pela queda de uma árvore. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.805,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.5,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q22",
+      "tipo": "respondivel",
+      "pergunta": "Como eu acompanho o protocolo da minha solicitação?",
+      "contexto": [
+        "canais_sp156#5",
+        "canais_sp156#1",
+        "canais_sp156#3",
+        "canais_sp156#4"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Aplicativo: toque em \"Minhas Solicitações\". [1]\n- Chat SP156: no menu inicial, escolha a opção \"Acompanhe sua solicitação\" e informe o número do protocolo e a data de abertura. [1]\n- o número de protocolo da ligação é informado. [2]\n- Anote o número do protocolo. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.783,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q23",
+      "tipo": "respondivel",
+      "pergunta": "Qual é o número do WhatsApp do SP156?",
+      "contexto": [
+        "canais_sp156#4",
+        "canais_sp156#0",
+        "tapa_buraco_ipiranga#1",
+        "cata_bagulho#5"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- WhatsApp do SP156: (11) 3230-5156. [3]\n- Atendimento eletrônico: Portal SP156 (site), chat no site, aplicativo SP156 e Chat SP156 (assistente virtual no WhatsApp) pelo número (11) 3230-5156. [2]\n- Adicione o número (11) 3230-5156. [1]\n- Confirme os dados e anote o número do protocolo. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.84,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "Q24",
+      "tipo": "respondivel",
+      "pergunta": "Qual o prazo para a Prefeitura avaliar a poda de uma árvore na calçada?",
+      "contexto": [
+        "guia_zeladoria_smsub#2",
+        "guia_zeladoria_smsub#3",
+        "guia_zeladoria_smsub#1",
+        "guia_zeladoria_smsub#4"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Avaliação de árvore em calçada ou praça para poda ou remoção: prazo de 120 dias. [1]\n- Denúncia de poda ou remoção não autorizada: prazo de 60 dias. [1]\n- Autorização para remoção de árvore com laudo: prazo de 60 dias. [1]\n- A execução depende de avaliação técnica de agrônomo ou biólogo. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.667,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "S01",
+      "tipo": "sem_resposta",
+      "pergunta": "Qual o prazo para a Prefeitura limpar uma boca de lobo?",
+      "contexto": [
+        "bocas_de_lobo#2",
+        "bocas_de_lobo#0",
+        "bocas_de_lobo#1",
+        "bocas_de_lobo#3"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- A Prefeitura faz periodicamente a limpeza e a desobstrução de bocas de lobo (bueiros), ramais e galerias. [2]\n- A remoção ou transformação de boca de lobo em frente a garagem (boca de leão) é outro serviço, pago, solicitado na Praça de Atendimento da Subprefeitura. [1]\n- Central 156 / Portal SP156 (serviço \"Limpeza de bueiros, boca de lobo e poços de visita\"). [3]\n- A página não informa prazo, custo ou documentos necessários para este serviço. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": true,
+      "grounded": true,
+      "suporte": 0.8,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0
+    },
+    {
+      "id": "S02",
+      "tipo": "sem_resposta",
+      "pergunta": "Qual o telefone da Subprefeitura de Pinheiros?",
+      "contexto": [
+        "cata_bagulho#6",
+        "tapa_buraco_sapopemba#2",
+        "tapa_buraco_ipiranga#4",
+        "bocas_de_lobo#3"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Telefone (11) 3397-1200. [1]\n- Telefone 3540-0307. [3]\n- Central SP156 (telefone 156). [2]\n- Telefone 3397-4587. [4]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.579,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0
+    },
+    {
+      "id": "S03",
+      "tipo": "sem_resposta",
+      "pergunta": "Quantos buracos a Prefeitura tapou em 2025?",
+      "contexto": [
+        "tapa_buraco_sapopemba#5",
+        "tapa_buraco_sapopemba#0",
+        "guia_zeladoria_smsub#0",
+        "tapa_buraco_sapopemba#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- A solicitação é encaminhada a ela e finalizada no sistema da Prefeitura. [1]\n- Quando há muitos buracos, e não apenas um ou alguns isolados, deve-se solicitar também o recapeamento. [1]\n- O Tapa-Buraco é o conserto do asfalto feito pela Prefeitura no local onde surgiu um buraco. [2]\n- Buracos abertos por concessionárias: se o buraco foi aberto pela SABESP, pela COMGÁS ou por outra concessionária de serviços públicos, o fechamento e o conserto do asfalto são de responsabilidade dessa instituição. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 0.765,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01
+    },
+    {
+      "id": "S04",
+      "tipo": "sem_resposta",
+      "pergunta": "Como funciona o cata-bagulho em Guarulhos?",
+      "contexto": [
+        "cata_bagulho#6",
+        "cata_bagulho#1",
+        "cata_bagulho#2",
+        "cata_bagulho#3"
+      ],
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "abstencao": true,
+      "grounded": false,
+      "suporte": 0.385,
+      "numeros_sem_evidencia": [],
+      "citacoes": [],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0
+    },
+    {
+      "id": "F01",
+      "tipo": "fora_escopo",
+      "pergunta": "Me passa uma receita de bolo de cenoura com cobertura de chocolate.",
+      "contexto": [
+        "iluminacao_faq#9",
+        "tapa_buraco_sapopemba#4",
+        "tapa_buraco_sapopemba#5",
+        "tapa_buraco_sapopemba#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Quando a via passa a ter iluminação, a cobrança volta. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": false,
+      "suporte": 0.5,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01
+    },
+    {
+      "id": "F02",
+      "tipo": "fora_escopo",
+      "pergunta": "Em quem eu devo votar para prefeito?",
+      "contexto": [
+        "tapa_buraco_sapopemba#0",
+        "tapa_buraco_sapopemba#1",
+        "tapa_buraco_sapopemba#5",
+        "tapa_buraco_sapopemba#3"
+      ],
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "abstencao": true,
+      "grounded": false,
+      "suporte": 0.0,
+      "numeros_sem_evidencia": [
+        "156"
+      ],
+      "citacoes": [],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0
+    },
+    {
+      "id": "F03",
+      "tipo": "fora_escopo",
+      "pergunta": "Qual remédio é bom para dor de cabeça forte?",
+      "contexto": [
+        "tapa_buraco_sapopemba#1",
+        "tapa_buraco_sapopemba#0",
+        "tapa_buraco_sapopemba#5",
+        "iluminacao_faq#4"
+      ],
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "abstencao": true,
+      "grounded": false,
+      "suporte": 0.0,
+      "numeros_sem_evidencia": [
+        "156"
+      ],
+      "citacoes": [],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "summary": {
+    "backend": "extractive",
+    "n": 15,
+    "score_por_tipo": {
+      "respondivel": 0.65,
+      "sem_resposta": 1.0,
+      "fora_escopo": 1.0,
+      "ambigua": 1.0,
+      "multiturno": 0.0
+    },
+    "score_geral": 0.7,
+    "distribuicao_status": {
+      "abstained": 4,
+      "answered": 10,
+      "clarify": 1
+    },
+    "taxa_nao_sustentada_bruta (antes da verificação)": 0.0,
+    "taxa_nao_sustentada_final": 0.0,
+    "latencia_media_s": 0.01,
+    "scores_topo_por_tipo (bm25, denso)": {
+      "respondivel": {
+        "bm25_min": 2.33,
+        "bm25_max": 18.65,
+        "dense_min": 0.4,
+        "dense_max": 0.838
+      },
+      "sem_resposta": {
+        "bm25_min": 2.89,
+        "bm25_max": 5.47,
+        "dense_min": 0.512,
+        "dense_max": 0.928
+      },
+      "fora_escopo": {
+        "bm25_min": 0.0,
+        "bm25_max": 0.0,
+        "dense_min": 0.437,
+        "dense_max": 0.437
+      },
+      "ambigua": {
+        "bm25_min": 1.83,
+        "bm25_max": 1.83,
+        "dense_min": 0.549,
+        "dense_max": 0.549
+      },
+      "multiturno": {
+        "bm25_min": 4.39,
+        "bm25_max": 4.39,
+        "dense_min": 0.512,
+        "dense_max": 0.512
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "T01",
+      "tipo": "respondivel",
+      "pergunta": "A rua aqui de casa tá cheia de buraco, a quem eu reclamo?",
+      "query_busca": "A rua aqui de casa tá cheia de buraco, a quem eu reclamo?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Recapeamento: o Tapa-Buraco não substitui o recapeamento da rua. [1]\n- O Tapa-Buraco é o conserto do asfalto feito pela Prefeitura no local onde surgiu um buraco. [2]\n- Aplicativo SP156: selecione \"Rua e bairro\", depois \"Reparos em asfaltos\" e, em seguida, \"Tapa-buraco\". [4]\n- Quando houver um buraco no asfalto que precise ser tapado para evitar acidentes ou danos a veículos. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "tapa_buraco_sapopemba#2",
+          "secao": "Observações | Contatos"
+        },
+        {
+          "n": 2,
+          "chunk": "tapa_buraco_sapopemba#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Taxas"
+        },
+        {
+          "n": 3,
+          "chunk": "tapa_buraco_sapopemba#1",
+          "secao": "Etapas do serviço"
+        },
+        {
+          "n": 4,
+          "chunk": "tapa_buraco_ipiranga#0",
+          "secao": "O que é | Como solicitar | O que informar no pedido | Encaminhamento"
+        }
+      ],
+      "top_bm25": 8.17,
+      "top_dense": 0.733,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "correta",
+      "score": 1.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T02",
+      "tipo": "respondivel",
+      "pergunta": "Quanto tempo demora para trocarem a lâmpada queimada do poste?",
+      "query_busca": "Quanto tempo demora para trocarem a lâmpada queimada do poste?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Manutenção da iluminação pública: 24 horas;. [3]\n- Quando um local público não tem iluminação pública, ou seja, nunca foi instalado poste de iluminação no ponto desejado. [1]\n- Melhoria/ampliação da iluminação pública: sem prazo informado;. [3]\n- O prazo estimado é de até 15 dias para o restabelecimento. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "iluminacao_ampliacao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Requisitos e informações | Taxas | Prazo | Etapas"
+        },
+        {
+          "n": 2,
+          "chunk": "iluminacao_faq#1",
+          "secao": "Estão roubando fios ou destruindo poste, braço ou luminária. Como denunciar? | Qual o prazo para religar a luz quando há roubo de cabos? | O transformador da rua está fazendo barulho. Está com defeito?"
+        },
+        {
+          "n": 3,
+          "chunk": "guia_zeladoria_smsub#2",
+          "secao": "Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_manutencao#1",
+          "secao": "Prazo | Etapas | Órgãos públicos e instituições"
+        }
+      ],
+      "top_bm25": 9.41,
+      "top_dense": 0.4,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "correta",
+      "score": 1.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T03",
+      "tipo": "respondivel",
+      "pergunta": "O poste de concreto da esquina é responsabilidade de quem?",
+      "query_busca": "O poste de concreto da esquina é responsabilidade de quem?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Se pertencerem à Administração Municipal, a manutenção da iluminação é de responsabilidade do órgão municipal de iluminação pública (ILUME / SP Regula). [2]\n- Postes de concreto não pertencem à SP Regula, e sim à concessionária de energia elétrica (ENEL). [1]\n- Lá é preenchido o formulário SAIP (Solicitação de Ampliação da Iluminação Pública), com dados do solicitante e do local sem iluminação. [2]\n- Decreto nº 61.172/2022: transfere à SP Regula a gestão, regulação e fiscalização do contrato de concessão da iluminação pública. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "iluminacao_manutencao#2",
+          "secao": "Observações | Legislação | Contato da SP Regula"
+        },
+        {
+          "n": 2,
+          "chunk": "iluminacao_faq#2",
+          "secao": "Quem cuida da iluminação de praças, parques e monumentos municipais? | Quem cuida da iluminação de prédios públicos (escolas, hospitais, delegacias)? | Como solicitar um novo ponto de iluminação pública?"
+        },
+        {
+          "n": 3,
+          "chunk": "iluminacao_manutencao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Informações necessárias | Taxas"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_faq#0",
+          "secao": "Está faltando energia. Para onde devo ligar? | Como saber se o defeito é da Prefeitura ou da distribuidora de energia? | Há um fio partido perto de casa soltando faíscas. O que fazer?"
+        }
+      ],
+      "top_bm25": 7.23,
+      "top_dense": 0.627,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "correta",
+      "score": 1.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T04",
+      "tipo": "respondivel",
+      "pergunta": "Posso levar restos de poda de árvore no Ecoponto?",
+      "query_busca": "Posso levar restos de poda de árvore no Ecoponto?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Restos de poda de árvores. [1]\n- Avaliação de árvore em calçada ou praça para poda ou remoção: prazo de 120 dias. [2]\n- O Ecoponto não é solicitado individualmente: o próprio cidadão leva o material até a unidade. [1]\n- Os Ecopontos recebem resíduos de construção e demolição de pequenos geradores e são geridos pela Secretaria Municipal das Subprefeituras (SMSUB). [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "ecopontos#0",
+          "secao": "O que são | O que pode ser descartado | Horário de funcionamento | Como encontrar um Ecoponto"
+        },
+        {
+          "n": 2,
+          "chunk": "guia_zeladoria_smsub#1",
+          "secao": "Poda e remoção de árvores"
+        },
+        {
+          "n": 3,
+          "chunk": "guia_zeladoria_smsub#0",
+          "secao": "Denúncia de descarte irregular de entulho e outros resíduos em área pública | Ecopontos"
+        },
+        {
+          "n": 4,
+          "chunk": "tapa_buraco_sapopemba#1",
+          "secao": "Etapas do serviço"
+        }
+      ],
+      "top_bm25": 13.04,
+      "top_dense": 0.838,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "correta",
+      "score": 1.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T05",
+      "tipo": "respondivel",
+      "pergunta": "Quais documentos preciso para pedir indenização pelo pneu que estourou no buraco?",
+      "query_busca": "Quais documentos preciso para pedir indenização pelo pneu que estourou no buraco?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- No Portal SP156: SERVIÇOS ONLINE > Finanças > Devoluções, restituições e indenizações > \"Reparação de Danos – Solicitar indenização por danos materiais\". [1]\n- Aplicativo SP156: selecione \"Rua e bairro\", depois \"Reparos em asfaltos\" e, em seguida, \"Tapa-buraco\". [2]\n- O Tapa-Buraco é uma das ações de manutenção com maior número de demandas na cidade de São Paulo. [2]\n- RG ou documento oficial com foto. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "reparacao_danos#1",
+          "secao": "Onde solicitar | Documentos necessários | Prazo e taxas"
+        },
+        {
+          "n": 2,
+          "chunk": "tapa_buraco_ipiranga#0",
+          "secao": "O que é | Como solicitar | O que informar no pedido | Encaminhamento"
+        },
+        {
+          "n": 3,
+          "chunk": "iluminacao_ampliacao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Requisitos e informações | Taxas | Prazo | Etapas"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_ampliacao#1",
+          "secao": "Outras informações"
+        }
+      ],
+      "top_bm25": 17.4,
+      "top_dense": 0.759,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "parcial",
+      "score": 0.5,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T06",
+      "tipo": "respondivel",
+      "pergunta": "Qual o prazo para a Prefeitura atender uma denúncia de entulho jogado na rua?",
+      "query_busca": "Qual o prazo para a Prefeitura atender uma denúncia de entulho jogado na rua?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- O prazo estimado é de até 15 dias para o restabelecimento. [1]\n- Denúncia de panfletagem irregular: 60 dias. [2]\n- Denúncia de falta de limpeza de terrenos e imóveis particulares: 60 dias. [2]\n- Denúncia de terreno com muro danificado ou inexistente: 60 dias. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "iluminacao_faq#1",
+          "secao": "Estão roubando fios ou destruindo poste, braço ou luminária. Como denunciar? | Qual o prazo para religar a luz quando há roubo de cabos? | O transformador da rua está fazendo barulho. Está com defeito?"
+        },
+        {
+          "n": 2,
+          "chunk": "guia_zeladoria_smsub#3",
+          "secao": "Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria"
+        },
+        {
+          "n": 3,
+          "chunk": "guia_zeladoria_smsub#2",
+          "secao": "Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_ampliacao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Requisitos e informações | Taxas | Prazo | Etapas"
+        }
+      ],
+      "top_bm25": 5.66,
+      "top_dense": 0.503,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "correta",
+      "score": 1.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T07",
+      "tipo": "respondivel",
+      "pergunta": "Barulho de obra pública à noite, o PSIU fiscaliza?",
+      "query_busca": "Barulho de obra pública à noite, o PSIU fiscaliza?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- O PSIU fiscaliza ruído de obras públicas?. [1]\n- O PSIU fiscaliza ruído de veículos em movimento?. [1]\n- O PSIU fiscaliza ruído em imóveis residenciais?. [2]\n- O PSIU fiscaliza escolas?. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "psiu_barulho#4",
+          "secao": "Perguntas frequentes | Contatos"
+        },
+        {
+          "n": 2,
+          "chunk": "psiu_barulho#3",
+          "secao": "Perguntas frequentes"
+        },
+        {
+          "n": 3,
+          "chunk": "psiu_barulho#0",
+          "secao": "O que é | O que o PSIU fiscaliza"
+        },
+        {
+          "n": 4,
+          "chunk": "psiu_barulho#2",
+          "secao": "Penalidades | Como funcionam as vistorias | Como solicitar"
+        }
+      ],
+      "top_bm25": 12.27,
+      "top_dense": 0.8,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "incorreta",
+      "score": 0.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T08",
+      "tipo": "respondivel",
+      "pergunta": "Como peço para colocarem iluminação numa praça que é escura?",
+      "query_busca": "Como peço para colocarem iluminação numa praça que é escura?",
+      "status": "abstained",
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "iluminacao_faq#2",
+          "secao": "Quem cuida da iluminação de praças, parques e monumentos municipais? | Quem cuida da iluminação de prédios públicos (escolas, hospitais, delegacias)? | Como solicitar um novo ponto de iluminação pública?"
+        },
+        {
+          "n": 2,
+          "chunk": "iluminacao_ampliacao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Requisitos e informações | Taxas | Prazo | Etapas"
+        },
+        {
+          "n": 3,
+          "chunk": "iluminacao_manutencao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Informações necessárias | Taxas"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_manutencao#2",
+          "secao": "Observações | Legislação | Contato da SP Regula"
+        }
+      ],
+      "top_bm25": 2.33,
+      "top_dense": 0.654,
+      "check_bruto_ok": null,
+      "check_bruto_motivos": [],
+      "check_final_ok": null,
+      "julgamento": "falha (não respondeu)",
+      "score": 0.0,
+      "latencia_s": 0.0
+    },
+    {
+      "id": "T09",
+      "tipo": "respondivel",
+      "pergunta": "Tem mato alto no canteiro central da avenida, em quanto tempo cortam?",
+      "query_busca": "Tem mato alto no canteiro central da avenida, em quanto tempo cortam?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Roçada em praça e canteiro central (corte de mato e grama): 30 dias. [1]\n- Prazo máximo de 180 dias. [4]\n- Melhoria/ampliação da iluminação pública: sem prazo informado;. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "guia_zeladoria_smsub#3",
+          "secao": "Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria"
+        },
+        {
+          "n": 2,
+          "chunk": "guia_zeladoria_smsub#2",
+          "secao": "Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria"
+        },
+        {
+          "n": 3,
+          "chunk": "iluminacao_ampliacao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Requisitos e informações | Taxas | Prazo | Etapas"
+        },
+        {
+          "n": 4,
+          "chunk": "reparacao_danos#1",
+          "secao": "Onde solicitar | Documentos necessários | Prazo e taxas"
+        }
+      ],
+      "top_bm25": 9.28,
+      "top_dense": 0.578,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "correta",
+      "score": 1.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T10",
+      "tipo": "respondivel",
+      "pergunta": "O cata-bagulho recolhe colchão?",
+      "query_busca": "O cata-bagulho recolhe colchão?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Serviço gratuito da Prefeitura de São Paulo que recolhe objetos volumosos e inservíveis descartados pelos moradores. [1]\n- Objetos volumosos sem possibilidade de reaproveitamento. [1]\n- Locais de entrega voluntária e gratuita de pequenos volumes de entulho, grandes objetos e resíduos recicláveis. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "cata_bagulho#0",
+          "secao": "O que é | Materiais aceitos | Cronograma | Como participar"
+        },
+        {
+          "n": 2,
+          "chunk": "cata_bagulho#1",
+          "secao": "Descarte irregular | Canais de atendimento | Contato da Subprefeitura Sé"
+        },
+        {
+          "n": 3,
+          "chunk": "ecopontos#0",
+          "secao": "O que são | O que pode ser descartado | Horário de funcionamento | Como encontrar um Ecoponto"
+        },
+        {
+          "n": 4,
+          "chunk": "guia_zeladoria_smsub#0",
+          "secao": "Denúncia de descarte irregular de entulho e outros resíduos em área pública | Ecopontos"
+        }
+      ],
+      "top_bm25": 18.65,
+      "top_dense": 0.826,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "incorreta",
+      "score": 0.0,
+      "latencia_s": 0.02
+    },
+    {
+      "id": "T11",
+      "tipo": "sem_resposta",
+      "pergunta": "Qual o horário da coleta de lixo reciclável na Mooca?",
+      "query_busca": "Qual o horário da coleta de lixo reciclável na Mooca?",
+      "status": "abstained",
+      "resposta": "Não encontrei nas fontes oficiais que consultei informações específicas de Mooca. Para contatos e atendimento dessa região, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "ecopontos#0",
+          "secao": "O que são | O que pode ser descartado | Horário de funcionamento | Como encontrar um Ecoponto"
+        },
+        {
+          "n": 2,
+          "chunk": "guia_zeladoria_smsub#0",
+          "secao": "Denúncia de descarte irregular de entulho e outros resíduos em área pública | Ecopontos"
+        },
+        {
+          "n": 3,
+          "chunk": "psiu_barulho#2",
+          "secao": "Penalidades | Como funcionam as vistorias | Como solicitar"
+        },
+        {
+          "n": 4,
+          "chunk": "psiu_barulho#1",
+          "secao": "Legislação aplicável | Limites de ruído e medição"
+        }
+      ],
+      "top_bm25": 5.47,
+      "top_dense": 0.928,
+      "check_bruto_ok": null,
+      "check_bruto_motivos": [],
+      "check_final_ok": null,
+      "julgamento": "correta (absteve-se / sinalizou falta)",
+      "score": 1.0,
+      "latencia_s": 0.0
+    },
+    {
+      "id": "T12",
+      "tipo": "sem_resposta",
+      "pergunta": "Quanto custa a taxa do lixo em São Paulo?",
+      "query_busca": "Quanto custa a taxa do lixo em São Paulo?",
+      "status": "abstained",
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "tapa_buraco_sapopemba#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Taxas"
+        },
+        {
+          "n": 2,
+          "chunk": "iluminacao_manutencao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Informações necessárias | Taxas"
+        },
+        {
+          "n": 3,
+          "chunk": "iluminacao_ampliacao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Requisitos e informações | Taxas | Prazo | Etapas"
+        },
+        {
+          "n": 4,
+          "chunk": "reparacao_danos#1",
+          "secao": "Onde solicitar | Documentos necessários | Prazo e taxas"
+        }
+      ],
+      "top_bm25": 2.89,
+      "top_dense": 0.512,
+      "check_bruto_ok": null,
+      "check_bruto_motivos": [],
+      "check_final_ok": null,
+      "julgamento": "correta (absteve-se / sinalizou falta)",
+      "score": 1.0,
+      "latencia_s": 0.0
+    },
+    {
+      "id": "T13",
+      "tipo": "fora_escopo",
+      "pergunta": "Qual a previsão do tempo para amanhã?",
+      "query_busca": "Qual a previsão do tempo para amanhã?",
+      "status": "abstained",
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "tapa_buraco_sapopemba#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Taxas"
+        },
+        {
+          "n": 2,
+          "chunk": "tapa_buraco_sapopemba#1",
+          "secao": "Etapas do serviço"
+        },
+        {
+          "n": 3,
+          "chunk": "tapa_buraco_ipiranga#0",
+          "secao": "O que é | Como solicitar | O que informar no pedido | Encaminhamento"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_manutencao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Informações necessárias | Taxas"
+        }
+      ],
+      "top_bm25": 0.0,
+      "top_dense": 0.437,
+      "check_bruto_ok": null,
+      "check_bruto_motivos": [],
+      "check_final_ok": null,
+      "julgamento": "correta (recusou)",
+      "score": 1.0,
+      "latencia_s": 0.0
+    },
+    {
+      "id": "T14",
+      "tipo": "ambigua",
+      "pergunta": "Quero fazer uma denúncia.",
+      "query_busca": "Quero fazer uma denúncia.",
+      "status": "clarify",
+      "resposta": "Sua pergunta pode se referir a mais de um serviço. Você quer saber sobre: buraco no asfalto, iluminação pública, lixo e entulho, barulho, bueiro, árvore ou calçada? Me diga qual problema você está enfrentando e onde.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "guia_zeladoria_smsub#3",
+          "secao": "Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria | Tabela de prazos máximos de outros serviços de zeladoria"
+        },
+        {
+          "n": 2,
+          "chunk": "psiu_barulho#1",
+          "secao": "Legislação aplicável | Limites de ruído e medição"
+        },
+        {
+          "n": 3,
+          "chunk": "psiu_barulho#2",
+          "secao": "Penalidades | Como funcionam as vistorias | Como solicitar"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_faq#1",
+          "secao": "Estão roubando fios ou destruindo poste, braço ou luminária. Como denunciar? | Qual o prazo para religar a luz quando há roubo de cabos? | O transformador da rua está fazendo barulho. Está com defeito?"
+        }
+      ],
+      "top_bm25": 1.83,
+      "top_dense": 0.549,
+      "check_bruto_ok": null,
+      "check_bruto_motivos": [],
+      "check_final_ok": null,
+      "julgamento": "correta (pediu esclarecimento)",
+      "score": 1.0,
+      "latencia_s": 0.0
+    },
+    {
+      "id": "T15",
+      "tipo": "multiturno",
+      "pergunta": "O bar da minha rua toca música alta toda sexta. → Preciso dar meu nome?",
+      "query_busca": "O bar da minha rua toca música alta toda sexta. Preciso dar meu nome?",
+      "status": "answered",
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Instalação de um novo ponto de iluminação pública em local que precisa de expansão do sistema. [4]\n- Dar o máximo de informações sobre o local, com pontos de referência e características da via. [4]\nAo registrar a solicitação, anote o número do protocolo.",
+      "contexto": [
+        {
+          "n": 1,
+          "chunk": "tapa_buraco_ipiranga#1",
+          "secao": "Contato da Subprefeitura Ipiranga"
+        },
+        {
+          "n": 2,
+          "chunk": "psiu_barulho#3",
+          "secao": "Perguntas frequentes"
+        },
+        {
+          "n": 3,
+          "chunk": "bocas_de_lobo#1",
+          "secao": "Contato (exemplo: Subprefeitura Butantã)"
+        },
+        {
+          "n": 4,
+          "chunk": "iluminacao_ampliacao#0",
+          "secao": "O que é o serviço | Quando solicitar | Canais de atendimento | Requisitos e informações | Taxas | Prazo | Etapas"
+        }
+      ],
+      "top_bm25": 4.39,
+      "top_dense": 0.512,
+      "check_bruto_ok": true,
+      "check_bruto_motivos": [],
+      "check_final_ok": true,
+      "julgamento": "incorreta",
+      "score": 0.0,
+      "latencia_s": 0.01
+    }
+  ]
+}

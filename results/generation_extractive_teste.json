@@ -1,0 +1,315 @@
+{
+  "summary": {
+    "backend": "extractive",
+    "modelo": "extractive-baseline",
+    "respondiveis_n": 10,
+    "correcao_fatos_media": 0.65,
+    "correcao_todos_fatos": 0.6,
+    "aderencia_fontes (grounded)": 1.0,
+    "com_citacao": 1.0,
+    "precisao_citacao_media": 0.783,
+    "abstencao_indevida": 0.0,
+    "sem_resposta_ou_fora_n": 3,
+    "abstencao_correta_sem_evidencia": 0.667
+  },
+  "rows": [
+    {
+      "id": "T01",
+      "tipo": "respondivel",
+      "pergunta": "A rua aqui de casa tá cheia de buraco, a quem eu reclamo?",
+      "contexto": [
+        "tapa_buraco_sapopemba#2",
+        "tapa_buraco_ipiranga#1",
+        "tapa_buraco_ipiranga#0",
+        "tapa_buraco_sapopemba#0"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Recapeamento: o Tapa-Buraco não substitui o recapeamento da rua. [1]\n- Aplicativo SP156: selecione \"Rua e bairro\", depois \"Reparos em asfaltos\" e, em seguida, \"Tapa-buraco\". [3]\n- O Tapa-Buraco é uma das ações de manutenção com maior número de demandas na cidade de São Paulo. [3]\n- Problemas em galerias de águas pluviais: se o buraco resultar de problema em galeria subterrânea que conduz a água da chuva, a STM conserta a galeria antes de fazer o Tapa-Buraco. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "T02",
+      "tipo": "respondivel",
+      "pergunta": "Quanto tempo demora para trocarem a lâmpada queimada do poste?",
+      "contexto": [
+        "iluminacao_manutencao#0",
+        "iluminacao_manutencao#2",
+        "iluminacao_manutencao#1",
+        "guia_zeladoria_smsub#0"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Telefone 0800 779 0156, da SP Regula Iluminação Pública. [1]\n- Decreto nº 61.172/2022: transfere à SP Regula a gestão, regulação e fiscalização do contrato de concessão da iluminação pública. [2]\n- Solicitação de reparo de lâmpada, luminária ou poste de luz metálico. [1]\n- Quando há necessidade de reparo em lâmpada, luminária ou poste de luz metálico. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 0.5
+    },
+    {
+      "id": "T03",
+      "tipo": "respondivel",
+      "pergunta": "O poste de concreto da esquina é responsabilidade de quem?",
+      "contexto": [
+        "iluminacao_manutencao#2",
+        "iluminacao_manutencao#0",
+        "iluminacao_manutencao#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Postes de concreto não pertencem à SP Regula, e sim à concessionária de energia elétrica (ENEL). [1]\n- Telefone 0800 779 0156, da SP Regula Iluminação Pública. [2]\n- Decreto nº 61.172/2022: transfere à SP Regula a gestão, regulação e fiscalização do contrato de concessão da iluminação pública. [1]\n- depois os fios são repostos e a iluminação é restabelecida. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.5
+    },
+    {
+      "id": "T04",
+      "tipo": "respondivel",
+      "pergunta": "Posso levar restos de poda de árvore no Ecoponto?",
+      "contexto": [
+        "ecopontos#0",
+        "guia_zeladoria_smsub#1",
+        "guia_zeladoria_smsub#0",
+        "guia_zeladoria_smsub#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Restos de poda de árvores. [1]\n- Avaliação de árvore em calçada ou praça para poda ou remoção: prazo de 120 dias. [2]\n- O Ecoponto não é solicitado individualmente: o próprio cidadão leva o material até a unidade. [1]\n- Os Ecopontos recebem resíduos de construção e demolição de pequenos geradores e são geridos pela Secretaria Municipal das Subprefeituras (SMSUB). [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "T05",
+      "tipo": "respondivel",
+      "pergunta": "Quais documentos preciso para pedir indenização pelo pneu que estourou no buraco?",
+      "contexto": [
+        "reparacao_danos#0",
+        "reparacao_danos#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Este serviço é diferente do pedido de conserto (como o Tapa-Buraco): a reparação de danos pede o ressarcimento do prejuízo sofrido. [1]\n- Solicitação de indenização para quem precisa fazer, ou já fez, o conserto de danos materiais causados por ação ou omissão da Prefeitura na prestação de serviços públicos. [1]\n- No Portal SP156: SERVIÇOS ONLINE > Finanças > Devoluções, restituições e indenizações > \"Reparação de Danos – Solicitar indenização por danos materiais\". [2]\n- RG ou documento oficial com foto. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.5,
+      "precisao_citacao": 0.5
+    },
+    {
+      "id": "T06",
+      "tipo": "respondivel",
+      "pergunta": "Qual o prazo para a Prefeitura atender uma denúncia de entulho jogado na rua?",
+      "contexto": [
+        "guia_zeladoria_smsub#0",
+        "guia_zeladoria_smsub#3",
+        "guia_zeladoria_smsub#1",
+        "guia_zeladoria_smsub#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Prazo máximo de atendimento: 60 dias. [1]\n- Denúncia de poda ou remoção não autorizada: prazo de 60 dias. [3]\n- Aciona a fiscalização municipal contra o descarte de entulho, terra ou resíduos acima de 50 kg em vias, passeios, canteiros, jardins e outros espaços públicos. [1]\n- Denúncia de panfletagem irregular: 60 dias. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "T07",
+      "tipo": "respondivel",
+      "pergunta": "Barulho de obra pública à noite, o PSIU fiscaliza?",
+      "contexto": [
+        "psiu_barulho#4",
+        "psiu_barulho#3",
+        "psiu_barulho#0",
+        "psiu_barulho#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- O PSIU fiscaliza ruído de obras públicas?. [1]\n- O PSIU fiscaliza ruído de veículos em movimento?. [1]\n- O PSIU fiscaliza ruído em imóveis residenciais?. [2]\n- O PSIU fiscaliza escolas?. [2]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "T08",
+      "tipo": "respondivel",
+      "pergunta": "Como peço para colocarem iluminação numa praça que é escura?",
+      "contexto": [
+        "iluminacao_faq#2",
+        "iluminacao_faq#0",
+        "iluminacao_ampliacao#0",
+        "iluminacao_faq#3"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- À Prefeitura devem ser encaminhadas apenas as queixas sobre a iluminação da via pública, ou seja, a luz que ilumina ruas, praças e túneis. [2]\n- Se pertencerem à Administração Municipal, a manutenção da iluminação é de responsabilidade do órgão municipal de iluminação pública (ILUME / SP Regula). [1]\n- Praças de Atendimento das Subprefeituras (atendimento presencial). [3]\n- Lá é preenchido o formulário SAIP (Solicitação de Ampliação da Iluminação Pública), com dados do solicitante e do local sem iluminação. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "T09",
+      "tipo": "respondivel",
+      "pergunta": "Tem mato alto no canteiro central da avenida, em quanto tempo cortam?",
+      "contexto": [
+        "guia_zeladoria_smsub#3",
+        "guia_zeladoria_smsub#0",
+        "guia_zeladoria_smsub#1",
+        "guia_zeladoria_smsub#2"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Roçada em praça e canteiro central (corte de mato e grama): 30 dias. [1]\n- Aciona a fiscalização municipal contra o descarte de entulho, terra ou resíduos acima de 50 kg em vias, passeios, canteiros, jardins e outros espaços públicos. [2]\n- Avaliação de árvore em calçada ou praça para poda ou remoção: prazo de 120 dias. [3]\n- Denúncia de poda ou remoção não autorizada: prazo de 60 dias. [3]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        3
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01,
+      "fatos_ok": 1.0,
+      "precisao_citacao": 0.3333333333333333
+    },
+    {
+      "id": "T10",
+      "tipo": "respondivel",
+      "pergunta": "O cata-bagulho recolhe colchão?",
+      "contexto": [
+        "cata_bagulho#0",
+        "cata_bagulho#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Serviço gratuito da Prefeitura de São Paulo que recolhe objetos volumosos e inservíveis descartados pelos moradores. [1]\n- Objetos volumosos sem possibilidade de reaproveitamento. [1]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.0,
+      "fatos_ok": 0.0,
+      "precisao_citacao": 1.0
+    },
+    {
+      "id": "T11",
+      "tipo": "sem_resposta",
+      "pergunta": "Qual o horário da coleta de lixo reciclável na Mooca?",
+      "contexto": [
+        "ecopontos#0",
+        "guia_zeladoria_smsub#0",
+        "psiu_barulho#2",
+        "psiu_barulho#1"
+      ],
+      "resposta": "Segundo as fontes oficiais consultadas:\n- Locais de entrega voluntária e gratuita de pequenos volumes de entulho, grandes objetos e resíduos recicláveis. [1]\n- Locais fixos de entrega voluntária que aceitam entulho de até 1 m³, grandes objetos como móveis, restos de poda e recicláveis. [2]\n- Os limites estão no quadro 4B, anexo 11, da Lei 16.402/2016, por zona de uso e faixa de horário. [4]\nAo registrar a solicitação, anote o número do protocolo.",
+      "abstencao": false,
+      "grounded": true,
+      "suporte": 1.0,
+      "numeros_sem_evidencia": [],
+      "citacoes": [
+        1,
+        2,
+        4
+      ],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01
+    },
+    {
+      "id": "T12",
+      "tipo": "sem_resposta",
+      "pergunta": "Quanto custa a taxa do lixo em São Paulo?",
+      "contexto": [
+        "tapa_buraco_sapopemba#0",
+        "iluminacao_manutencao#0",
+        "iluminacao_ampliacao#0",
+        "reparacao_danos#1"
+      ],
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "abstencao": true,
+      "grounded": false,
+      "suporte": 0.615,
+      "numeros_sem_evidencia": [],
+      "citacoes": [],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01
+    },
+    {
+      "id": "T13",
+      "tipo": "fora_escopo",
+      "pergunta": "Qual a previsão do tempo para amanhã?",
+      "contexto": [
+        "tapa_buraco_sapopemba#0",
+        "tapa_buraco_sapopemba#1",
+        "tapa_buraco_ipiranga#0",
+        "iluminacao_manutencao#0"
+      ],
+      "resposta": "Não encontrei essa informação nas fontes oficiais que consultei. Para ter certeza, procure a Central 156 (telefone 156, Portal ou aplicativo SP156).",
+      "abstencao": true,
+      "grounded": false,
+      "suporte": 0.538,
+      "numeros_sem_evidencia": [],
+      "citacoes": [],
+      "citacoes_invalidas": [],
+      "latencia_s": 0.01
+    }
+  ]
+}

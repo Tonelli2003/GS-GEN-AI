@@ -1,0 +1,6048 @@
+{
+  "dense_backend": "lsa:char3-5+svd20",
+  "n_perguntas": 26,
+  "rows": [
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "bm25",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.538,
+      "evidencia_completa@k": 0.5
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "bm25",
+      "k": 3,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.654,
+      "evidencia_completa@k": 0.615
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "bm25",
+      "k": 4,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "bm25",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "dense",
+      "k": 1,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.615,
+      "evidencia_completa@k": 0.577
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "dense",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "dense",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.75,
+      "evidencia_completa@k": 0.731
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "dense",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.769,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.577,
+      "evidencia_completa@k": 0.538
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.692,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.769,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid+boost",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.615,
+      "evidencia_completa@k": 0.577
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid+boost",
+      "k": 3,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.654,
+      "evidencia_completa@k": 0.615
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid+boost",
+      "k": 4,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.731
+    },
+    {
+      "chunking": "estrutural (seção, máx 220 pal., overlap 40)",
+      "n_chunks": 83,
+      "retriever": "hybrid+boost",
+      "k": 5,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.731
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "bm25",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.538,
+      "evidencia_completa@k": 0.5
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "bm25",
+      "k": 3,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.692,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "bm25",
+      "k": 4,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "bm25",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.839,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "dense",
+      "k": 1,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.615,
+      "evidencia_completa@k": 0.577
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "dense",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "dense",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.769,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "dense",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.865,
+      "evidencia_recall@k": 0.769,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.577,
+      "evidencia_completa@k": 0.538
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.692,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.846,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.731
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid+boost",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.577,
+      "evidencia_completa@k": 0.538
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid+boost",
+      "k": 3,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.654,
+      "evidencia_completa@k": 0.615
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid+boost",
+      "k": 4,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.692,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "estrutural (seção, máx 100 pal., overlap 20)",
+      "n_chunks": 87,
+      "retriever": "hybrid+boost",
+      "k": 5,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.808,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.731
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "bm25",
+      "k": 1,
+      "doc_hit@k": 0.731,
+      "MRR@10": 0.787,
+      "evidencia_recall@k": 0.519,
+      "evidencia_completa@k": 0.462
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "bm25",
+      "k": 3,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.787,
+      "evidencia_recall@k": 0.673,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "bm25",
+      "k": 4,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.787,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "bm25",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.787,
+      "evidencia_recall@k": 0.788,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "dense",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.538,
+      "evidencia_completa@k": 0.462
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "dense",
+      "k": 3,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.654,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "dense",
+      "k": 4,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.731
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "dense",
+      "k": 5,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.769,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid",
+      "k": 1,
+      "doc_hit@k": 0.731,
+      "MRR@10": 0.793,
+      "evidencia_recall@k": 0.519,
+      "evidencia_completa@k": 0.462
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid",
+      "k": 3,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.793,
+      "evidencia_recall@k": 0.635,
+      "evidencia_completa@k": 0.615
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.793,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.793,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid+boost",
+      "k": 1,
+      "doc_hit@k": 0.731,
+      "MRR@10": 0.768,
+      "evidencia_recall@k": 0.481,
+      "evidencia_completa@k": 0.423
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid+boost",
+      "k": 3,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.768,
+      "evidencia_recall@k": 0.615,
+      "evidencia_completa@k": 0.577
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid+boost",
+      "k": 4,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.768,
+      "evidencia_recall@k": 0.692,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "fixo 60 pal. / overlap 15",
+      "n_chunks": 85,
+      "retriever": "hybrid+boost",
+      "k": 5,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.768,
+      "evidencia_recall@k": 0.731,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "bm25",
+      "k": 1,
+      "doc_hit@k": 0.769,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.712,
+      "evidencia_completa@k": 0.692
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "bm25",
+      "k": 3,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.808,
+      "evidencia_completa@k": 0.808
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "bm25",
+      "k": 4,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "bm25",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.83,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "dense",
+      "k": 1,
+      "doc_hit@k": 0.692,
+      "MRR@10": 0.792,
+      "evidencia_recall@k": 0.596,
+      "evidencia_completa@k": 0.577
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "dense",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.792,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "dense",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.792,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "dense",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.792,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid",
+      "k": 1,
+      "doc_hit@k": 0.769,
+      "MRR@10": 0.834,
+      "evidencia_recall@k": 0.673,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.834,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.834,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.834,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid+boost",
+      "k": 1,
+      "doc_hit@k": 0.769,
+      "MRR@10": 0.809,
+      "evidencia_recall@k": 0.673,
+      "evidencia_completa@k": 0.654
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid+boost",
+      "k": 3,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.809,
+      "evidencia_recall@k": 0.808,
+      "evidencia_completa@k": 0.808
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid+boost",
+      "k": 4,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.809,
+      "evidencia_recall@k": 0.808,
+      "evidencia_completa@k": 0.808
+    },
+    {
+      "chunking": "fixo 120 pal. / overlap 30",
+      "n_chunks": 44,
+      "retriever": "hybrid+boost",
+      "k": 5,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.809,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "bm25",
+      "k": 1,
+      "doc_hit@k": 0.731,
+      "MRR@10": 0.807,
+      "evidencia_recall@k": 0.788,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "bm25",
+      "k": 3,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.807,
+      "evidencia_recall@k": 0.827,
+      "evidencia_completa@k": 0.808
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "bm25",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.807,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "bm25",
+      "k": 5,
+      "doc_hit@k": 0.923,
+      "MRR@10": 0.807,
+      "evidencia_recall@k": 0.923,
+      "evidencia_completa@k": 0.923
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "dense",
+      "k": 1,
+      "doc_hit@k": 0.808,
+      "MRR@10": 0.857,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "dense",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.857,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "dense",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.857,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "dense",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.857,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid",
+      "k": 1,
+      "doc_hit@k": 0.731,
+      "MRR@10": 0.819,
+      "evidencia_recall@k": 0.769,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid",
+      "k": 3,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.819,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.819,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid",
+      "k": 5,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.819,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid+boost",
+      "k": 1,
+      "doc_hit@k": 0.731,
+      "MRR@10": 0.811,
+      "evidencia_recall@k": 0.769,
+      "evidencia_completa@k": 0.769
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid+boost",
+      "k": 3,
+      "doc_hit@k": 0.846,
+      "MRR@10": 0.811,
+      "evidencia_recall@k": 0.846,
+      "evidencia_completa@k": 0.846
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid+boost",
+      "k": 4,
+      "doc_hit@k": 0.885,
+      "MRR@10": 0.811,
+      "evidencia_recall@k": 0.885,
+      "evidencia_completa@k": 0.885
+    },
+    {
+      "chunking": "fixo 250 pal. / overlap 50",
+      "n_chunks": 21,
+      "retriever": "hybrid+boost",
+      "k": 5,
+      "doc_hit@k": 0.923,
+      "MRR@10": 0.811,
+      "evidencia_recall@k": 0.923,
+      "evidencia_completa@k": 0.923
+    }
+  ],
+  "per_question_k4": {
+    "estrutural (seção, máx 220 pal., overlap 40) | bm25": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "reparacao_danos#0",
+          "tapa_buraco_ipiranga#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#6",
+          "iluminacao_manutencao#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_ipiranga#1",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_ipiranga#1",
+          "tapa_buraco_ipiranga#4",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_ampliacao#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "iluminacao_faq#1",
+          "iluminacao_faq#5",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#4",
+          "iluminacao_manutencao#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "reparacao_danos#2",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#3"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#8"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "cata_bagulho#1",
+          "ecopontos#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#0",
+          "ecopontos#3",
+          "ecopontos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "psiu_barulho#7",
+          "ecopontos#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#0",
+          "ecopontos#1",
+          "ecopontos#0",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "cata_bagulho#6",
+          "psiu_barulho#8",
+          "cata_bagulho#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#5",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#2",
+          "iluminacao_faq#1"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#7",
+          "iluminacao_faq#3",
+          "iluminacao_faq#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "iluminacao_faq#2",
+          "iluminacao_faq#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#4",
+          "psiu_barulho#7",
+          "reparacao_danos#5",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#3",
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#0",
+          "cata_bagulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#1",
+          "reparacao_danos#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "iluminacao_manutencao#6",
+          "canais_sp156#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "guia_zeladoria_smsub#3",
+          "iluminacao_manutencao#6",
+          "reparacao_danos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "reparacao_danos#0",
+          "tapa_buraco_ipiranga#1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "estrutural (seção, máx 220 pal., overlap 40) | dense": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#6",
+          "tapa_buraco_sapopemba#1",
+          "iluminacao_manutencao#5",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_faq#8",
+          "iluminacao_ampliacao#0",
+          "iluminacao_ampliacao#2"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#4",
+          "iluminacao_manutencao#3"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#0",
+          "iluminacao_ampliacao#1",
+          "cata_bagulho#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#8",
+          "iluminacao_faq#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#1",
+          "cata_bagulho#1",
+          "cata_bagulho#3",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#3",
+          "guia_zeladoria_smsub#1",
+          "psiu_barulho#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "ecopontos#2",
+          "ecopontos#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#0",
+          "guia_zeladoria_smsub#3",
+          "ecopontos#1",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "guia_zeladoria_smsub#4",
+          "guia_zeladoria_smsub#3",
+          "guia_zeladoria_smsub#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#6",
+          "iluminacao_faq#5",
+          "psiu_barulho#3",
+          "guia_zeladoria_smsub#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#7",
+          "psiu_barulho#6",
+          "tapa_buraco_ipiranga#2",
+          "guia_zeladoria_smsub#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "psiu_barulho#0",
+          "cata_bagulho#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "psiu_barulho#4",
+          "cata_bagulho#4",
+          "guia_zeladoria_smsub#3",
+          "canais_sp156#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#0",
+          "bocas_de_lobo#3",
+          "cata_bagulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#0",
+          "reparacao_danos#1",
+          "reparacao_danos#4",
+          "reparacao_danos#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "canais_sp156#3",
+          "iluminacao_manutencao#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "iluminacao_manutencao#6",
+          "guia_zeladoria_smsub#3",
+          "reparacao_danos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "estrutural (seção, máx 220 pal., overlap 40) | hybrid": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#6",
+          "iluminacao_manutencao#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_ipiranga#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#1",
+          "iluminacao_ampliacao#1",
+          "tapa_buraco_sapopemba#5",
+          "cata_bagulho#0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#4",
+          "iluminacao_manutencao#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#1",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_ampliacao#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "cata_bagulho#1",
+          "ecopontos#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#3",
+          "ecopontos#0",
+          "guia_zeladoria_smsub#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "ecopontos#0",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#0",
+          "ecopontos#1",
+          "ecopontos#2",
+          "guia_zeladoria_smsub#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "guia_zeladoria_smsub#4",
+          "guia_zeladoria_smsub#3",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#5",
+          "psiu_barulho#6",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#7",
+          "tapa_buraco_ipiranga#2",
+          "iluminacao_faq#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "psiu_barulho#0",
+          "psiu_barulho#8"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#4",
+          "psiu_barulho#4",
+          "psiu_barulho#7",
+          "guia_zeladoria_smsub#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#3",
+          "bocas_de_lobo#0",
+          "cata_bagulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#0",
+          "reparacao_danos#1",
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "iluminacao_manutencao#6",
+          "canais_sp156#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "iluminacao_manutencao#6",
+          "guia_zeladoria_smsub#3",
+          "reparacao_danos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "reparacao_danos#0",
+          "iluminacao_ampliacao#5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "estrutural (seção, máx 220 pal., overlap 40) | hybrid+boost": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_ipiranga#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#3"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_ipiranga#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#1",
+          "iluminacao_ampliacao#1",
+          "iluminacao_faq#8",
+          "iluminacao_ampliacao#0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#4",
+          "iluminacao_manutencao#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#1",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_ampliacao#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "cata_bagulho#1",
+          "ecopontos#1",
+          "cata_bagulho#3",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#3",
+          "ecopontos#0",
+          "guia_zeladoria_smsub#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "ecopontos#0",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "ecopontos#1",
+          "ecopontos#2",
+          "ecopontos#0",
+          "ecopontos#3"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "cata_bagulho#2",
+          "cata_bagulho#6",
+          "ecopontos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#7",
+          "psiu_barulho#3",
+          "psiu_barulho#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#7",
+          "psiu_barulho#3",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "psiu_barulho#0",
+          "psiu_barulho#8"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "psiu_barulho#4",
+          "psiu_barulho#7",
+          "psiu_barulho#0",
+          "psiu_barulho#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#3",
+          "bocas_de_lobo#0",
+          "bocas_de_lobo#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#4"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "iluminacao_manutencao#6",
+          "canais_sp156#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "iluminacao_manutencao#6",
+          "guia_zeladoria_smsub#3",
+          "reparacao_danos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_ipiranga#1",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "estrutural (seção, máx 100 pal., overlap 20) | bm25": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#0",
+          "tapa_buraco_ipiranga#1",
+          "tapa_buraco_sapopemba#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#6",
+          "iluminacao_manutencao#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_ipiranga#1",
+          "tapa_buraco_sapopemba#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_ipiranga#1",
+          "tapa_buraco_sapopemba#6",
+          "tapa_buraco_ipiranga#4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_ampliacao#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "iluminacao_faq#1",
+          "iluminacao_faq#5",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#4",
+          "iluminacao_manutencao#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "reparacao_danos#2",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#3"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#8"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "cata_bagulho#1",
+          "ecopontos#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#0",
+          "ecopontos#3",
+          "ecopontos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "psiu_barulho#8",
+          "ecopontos#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#0",
+          "ecopontos#1",
+          "ecopontos#0",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "cata_bagulho#6",
+          "psiu_barulho#9",
+          "cata_bagulho#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#5",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#2",
+          "iluminacao_faq#1"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#7",
+          "iluminacao_faq#3",
+          "iluminacao_faq#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#8",
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "iluminacao_faq#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#4",
+          "psiu_barulho#7",
+          "reparacao_danos#5",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#3",
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#0",
+          "cata_bagulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#1",
+          "reparacao_danos#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "iluminacao_manutencao#6",
+          "canais_sp156#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "guia_zeladoria_smsub#3",
+          "guia_zeladoria_smsub#4",
+          "guia_zeladoria_smsub#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#0",
+          "tapa_buraco_ipiranga#1",
+          "tapa_buraco_sapopemba#5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "estrutural (seção, máx 100 pal., overlap 20) | dense": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#6",
+          "tapa_buraco_sapopemba#1",
+          "iluminacao_manutencao#5",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#6",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_faq#8",
+          "iluminacao_ampliacao#0",
+          "iluminacao_ampliacao#2"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#4",
+          "guia_zeladoria_smsub#4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#0",
+          "iluminacao_ampliacao#1",
+          "iluminacao_faq#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#8",
+          "iluminacao_faq#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#1",
+          "cata_bagulho#1",
+          "cata_bagulho#3",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#3",
+          "guia_zeladoria_smsub#1",
+          "psiu_barulho#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "ecopontos#2",
+          "ecopontos#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#0",
+          "guia_zeladoria_smsub#6",
+          "ecopontos#1",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "guia_zeladoria_smsub#6",
+          "guia_zeladoria_smsub#0",
+          "ecopontos#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#6",
+          "iluminacao_faq#5",
+          "psiu_barulho#3",
+          "iluminacao_manutencao#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#7",
+          "psiu_barulho#6",
+          "tapa_buraco_ipiranga#2",
+          "canais_sp156#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#8",
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "psiu_barulho#4",
+          "cata_bagulho#4",
+          "canais_sp156#0",
+          "cata_bagulho#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#0",
+          "bocas_de_lobo#3",
+          "iluminacao_faq#8"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#0",
+          "reparacao_danos#1",
+          "reparacao_danos#4",
+          "reparacao_danos#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "canais_sp156#3",
+          "iluminacao_manutencao#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "guia_zeladoria_smsub#3",
+          "guia_zeladoria_smsub#4",
+          "iluminacao_manutencao#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "estrutural (seção, máx 100 pal., overlap 20) | hybrid": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#6"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#6",
+          "iluminacao_manutencao#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#6",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "iluminacao_ampliacao#1",
+          "iluminacao_faq#1",
+          "iluminacao_faq#8"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#4",
+          "iluminacao_manutencao#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#1",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_ampliacao#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "cata_bagulho#1",
+          "ecopontos#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#3",
+          "ecopontos#0",
+          "guia_zeladoria_smsub#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "ecopontos#0",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#0",
+          "ecopontos#1",
+          "ecopontos#2",
+          "guia_zeladoria_smsub#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "guia_zeladoria_smsub#6",
+          "tapa_buraco_sapopemba#6",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#5",
+          "psiu_barulho#6",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#7",
+          "tapa_buraco_ipiranga#2",
+          "iluminacao_faq#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#8",
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#4",
+          "psiu_barulho#7",
+          "psiu_barulho#4",
+          "reparacao_danos#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#3",
+          "bocas_de_lobo#0",
+          "cata_bagulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#0",
+          "reparacao_danos#1",
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "iluminacao_manutencao#6",
+          "canais_sp156#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "guia_zeladoria_smsub#3",
+          "guia_zeladoria_smsub#4",
+          "iluminacao_manutencao#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "reparacao_danos#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#6"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "estrutural (seção, máx 100 pal., overlap 20) | hybrid+boost": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#6",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#6"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#2",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#6",
+          "tapa_buraco_sapopemba#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#4"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_faq#1",
+          "iluminacao_faq#8",
+          "iluminacao_ampliacao#0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#0",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#4",
+          "iluminacao_manutencao#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#2",
+          "iluminacao_faq#1",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#1",
+          "iluminacao_manutencao#1",
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#0",
+          "iluminacao_ampliacao#1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "cata_bagulho#1",
+          "ecopontos#1",
+          "cata_bagulho#3",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#2",
+          "ecopontos#3",
+          "ecopontos#0",
+          "guia_zeladoria_smsub#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#3",
+          "ecopontos#1",
+          "ecopontos#0",
+          "ecopontos#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "ecopontos#1",
+          "ecopontos#2",
+          "ecopontos#0",
+          "ecopontos#3"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#4",
+          "cata_bagulho#2",
+          "ecopontos#1",
+          "cata_bagulho#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#8",
+          "psiu_barulho#3",
+          "psiu_barulho#7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#6",
+          "psiu_barulho#7",
+          "psiu_barulho#3",
+          "psiu_barulho#8"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#8",
+          "psiu_barulho#7",
+          "psiu_barulho#1",
+          "psiu_barulho#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "psiu_barulho#7",
+          "psiu_barulho#4",
+          "psiu_barulho#8",
+          "psiu_barulho#1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#1",
+          "bocas_de_lobo#3",
+          "bocas_de_lobo#0",
+          "bocas_de_lobo#2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#1",
+          "tapa_buraco_sapopemba#4"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#5",
+          "canais_sp156#1",
+          "iluminacao_manutencao#6",
+          "canais_sp156#3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#4",
+          "canais_sp156#0",
+          "tapa_buraco_ipiranga#1",
+          "cata_bagulho#5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#2",
+          "guia_zeladoria_smsub#3",
+          "guia_zeladoria_smsub#4",
+          "iluminacao_manutencao#6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#0",
+          "tapa_buraco_sapopemba#5",
+          "tapa_buraco_sapopemba#6",
+          "tapa_buraco_ipiranga#1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#3",
+          "iluminacao_manutencao#1",
+          "iluminacao_manutencao#8",
+          "iluminacao_manutencao#0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 60 pal. / overlap 15 | bm25": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f5"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#f5",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_manutencao#f3",
+          "reparacao_danos#f4"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f3"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f3",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_sapopemba#f6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f3",
+          "iluminacao_ampliacao#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f5",
+          "iluminacao_ampliacao#f0",
+          "tapa_buraco_sapopemba#f5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "cata_bagulho#f2",
+          "guia_zeladoria_smsub#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f1",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_ampliacao#f1",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f6"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f1",
+          "cata_bagulho#f1",
+          "cata_bagulho#f0",
+          "tapa_buraco_sapopemba#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f1",
+          "ecopontos#f0",
+          "ecopontos#f2",
+          "psiu_barulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f2",
+          "ecopontos#f3",
+          "ecopontos#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f1",
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f3",
+          "guia_zeladoria_smsub#f10",
+          "bocas_de_lobo#f3",
+          "tapa_buraco_ipiranga#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f5",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f7",
+          "iluminacao_faq#f5",
+          "iluminacao_faq#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f10",
+          "psiu_barulho#f8",
+          "psiu_barulho#f9",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "reparacao_danos#f5",
+          "cata_bagulho#f3",
+          "psiu_barulho#f8",
+          "guia_zeladoria_smsub#f10"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "bocas_de_lobo#f1",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f3",
+          "tapa_buraco_sapopemba#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f7",
+          "canais_sp156#f6",
+          "canais_sp156#f2",
+          "canais_sp156#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f5",
+          "canais_sp156#f0",
+          "canais_sp156#f7",
+          "canais_sp156#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f3",
+          "guia_zeladoria_smsub#f4",
+          "guia_zeladoria_smsub#f5",
+          "guia_zeladoria_smsub#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 60 pal. / overlap 15 | dense": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f4",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f3"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#f5",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_manutencao#f3",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f5",
+          "reparacao_danos#f1",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f3",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f3",
+          "iluminacao_faq#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f8",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_ampliacao#f1",
+          "iluminacao_faq#f7"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "guia_zeladoria_smsub#f7",
+          "guia_zeladoria_smsub#f6"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_ampliacao#f1",
+          "iluminacao_faq#f8",
+          "iluminacao_manutencao#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f1",
+          "cata_bagulho#f1",
+          "cata_bagulho#f2",
+          "reparacao_danos#f2"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f2",
+          "ecopontos#f1",
+          "guia_zeladoria_smsub#f2",
+          "ecopontos#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f2",
+          "ecopontos#f3",
+          "guia_zeladoria_smsub#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f9",
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f3",
+          "guia_zeladoria_smsub#f10",
+          "cata_bagulho#f2",
+          "guia_zeladoria_smsub#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#f7",
+          "iluminacao_faq#f5",
+          "guia_zeladoria_smsub#f7",
+          "iluminacao_manutencao#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f7",
+          "canais_sp156#f3",
+          "guia_zeladoria_smsub#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f10",
+          "psiu_barulho#f9",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#f3",
+          "reparacao_danos#f5",
+          "guia_zeladoria_smsub#f10",
+          "guia_zeladoria_smsub#f7"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f1",
+          "bocas_de_lobo#f0",
+          "iluminacao_faq#f8",
+          "psiu_barulho#f11"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "reparacao_danos#f3",
+          "reparacao_danos#f2",
+          "tapa_buraco_sapopemba#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f6",
+          "canais_sp156#f7",
+          "canais_sp156#f2",
+          "iluminacao_manutencao#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f0",
+          "canais_sp156#f5",
+          "canais_sp156#f2",
+          "guia_zeladoria_smsub#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f3",
+          "guia_zeladoria_smsub#f7",
+          "guia_zeladoria_smsub#f5",
+          "guia_zeladoria_smsub#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f4",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 60 pal. / overlap 15 | hybrid": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f4",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f5"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#f5",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_manutencao#f3",
+          "reparacao_danos#f4"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f5",
+          "reparacao_danos#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f3",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_sapopemba#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f3",
+          "iluminacao_faq#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f8",
+          "iluminacao_faq#f2",
+          "iluminacao_ampliacao#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "guia_zeladoria_smsub#f7",
+          "cata_bagulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f2",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_faq#f1",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_ampliacao#f1",
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f8"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f7"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f1",
+          "cata_bagulho#f1",
+          "tapa_buraco_sapopemba#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f1",
+          "ecopontos#f2",
+          "guia_zeladoria_smsub#f2",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f2",
+          "ecopontos#f3",
+          "ecopontos#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f9",
+          "guia_zeladoria_smsub#f0",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f3",
+          "guia_zeladoria_smsub#f10",
+          "tapa_buraco_sapopemba#f5",
+          "psiu_barulho#f11"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f5",
+          "psiu_barulho#f7",
+          "guia_zeladoria_smsub#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f7",
+          "iluminacao_faq#f5",
+          "canais_sp156#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f10",
+          "psiu_barulho#f9",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#f3",
+          "reparacao_danos#f5",
+          "guia_zeladoria_smsub#f10",
+          "psiu_barulho#f8"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "bocas_de_lobo#f1",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "reparacao_danos#f3",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f6",
+          "canais_sp156#f7",
+          "canais_sp156#f2",
+          "iluminacao_manutencao#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f0",
+          "canais_sp156#f5",
+          "canais_sp156#f2",
+          "cata_bagulho#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f3",
+          "guia_zeladoria_smsub#f4",
+          "guia_zeladoria_smsub#f7",
+          "guia_zeladoria_smsub#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f4",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 60 pal. / overlap 15 | hybrid+boost": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_sapopemba#f3"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f3"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_ipiranga#f1"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f3",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_sapopemba#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f3",
+          "iluminacao_faq#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f8",
+          "iluminacao_faq#f2",
+          "iluminacao_ampliacao#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f3",
+          "iluminacao_ampliacao#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f2",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_faq#f1",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 0.5
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_ampliacao#f1",
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f8"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f7"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f1",
+          "cata_bagulho#f1",
+          "cata_bagulho#f0",
+          "cata_bagulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f1",
+          "ecopontos#f2",
+          "guia_zeladoria_smsub#f2",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f2",
+          "ecopontos#f3",
+          "ecopontos#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "cata_bagulho#f1",
+          "cata_bagulho#f2"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f3",
+          "cata_bagulho#f1",
+          "cata_bagulho#f2",
+          "ecopontos#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#f7",
+          "psiu_barulho#f10",
+          "psiu_barulho#f11",
+          "psiu_barulho#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f7",
+          "psiu_barulho#f11",
+          "psiu_barulho#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f10",
+          "psiu_barulho#f9",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "psiu_barulho#f8",
+          "psiu_barulho#f9",
+          "psiu_barulho#f0",
+          "psiu_barulho#f1"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "bocas_de_lobo#f1",
+          "bocas_de_lobo#f3",
+          "bocas_de_lobo#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f3",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f5"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f6",
+          "canais_sp156#f7",
+          "canais_sp156#f2",
+          "iluminacao_manutencao#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f0",
+          "canais_sp156#f5",
+          "canais_sp156#f2",
+          "cata_bagulho#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f3",
+          "guia_zeladoria_smsub#f4",
+          "guia_zeladoria_smsub#f7",
+          "guia_zeladoria_smsub#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f4",
+          "tapa_buraco_sapopemba#f5",
+          "tapa_buraco_sapopemba#f6"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f3",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f7"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 120 pal. / overlap 30 | bm25": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2",
+          "iluminacao_manutencao#f1",
+          "reparacao_danos#f2"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_sapopemba#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_ampliacao#f0",
+          "tapa_buraco_sapopemba#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f4"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "cata_bagulho#f1",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f5",
+          "iluminacao_faq#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "psiu_barulho#f3",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "guia_zeladoria_smsub#f0",
+          "psiu_barulho#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f1",
+          "guia_zeladoria_smsub#f5",
+          "tapa_buraco_sapopemba#f3",
+          "cata_bagulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f3",
+          "psiu_barulho#f4",
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f5",
+          "psiu_barulho#f4",
+          "psiu_barulho#f3",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "reparacao_danos#f2",
+          "psiu_barulho#f4",
+          "cata_bagulho#f1",
+          "guia_zeladoria_smsub#f5"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f3",
+          "guia_zeladoria_smsub#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "reparacao_danos#f1",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f3",
+          "canais_sp156#f1",
+          "canais_sp156#f2",
+          "iluminacao_manutencao#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f2",
+          "canais_sp156#f0",
+          "tapa_buraco_ipiranga#f0",
+          "canais_sp156#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f3",
+          "iluminacao_manutencao#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f3",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 120 pal. / overlap 30 | dense": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_manutencao#f1",
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0",
+          "psiu_barulho#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f4",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f3",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "guia_zeladoria_smsub#f3",
+          "iluminacao_faq#f1",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f4",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f2",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "reparacao_danos#f1",
+          "tapa_buraco_sapopemba#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "guia_zeladoria_smsub#f1",
+          "psiu_barulho#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f4",
+          "guia_zeladoria_smsub#f1",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "guia_zeladoria_smsub#f5",
+          "cata_bagulho#f1",
+          "guia_zeladoria_smsub#f4",
+          "guia_zeladoria_smsub#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#f2",
+          "psiu_barulho#f3",
+          "guia_zeladoria_smsub#f3",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f3",
+          "psiu_barulho#f4",
+          "canais_sp156#f1",
+          "iluminacao_faq#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f4",
+          "psiu_barulho#f5",
+          "psiu_barulho#f0",
+          "psiu_barulho#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#f1",
+          "canais_sp156#f0",
+          "psiu_barulho#f0",
+          "psiu_barulho#f4"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f4",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f1",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f3",
+          "iluminacao_manutencao#f2",
+          "canais_sp156#f1",
+          "canais_sp156#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f0",
+          "canais_sp156#f2",
+          "cata_bagulho#f2",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f3",
+          "canais_sp156#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f2",
+          "iluminacao_manutencao#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 120 pal. / overlap 30 | hybrid": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2",
+          "iluminacao_manutencao#f1",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_ampliacao#f0",
+          "psiu_barulho#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f4",
+          "iluminacao_faq#f0",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f3"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "guia_zeladoria_smsub#f3",
+          "cata_bagulho#f1",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f4",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "psiu_barulho#f3",
+          "guia_zeladoria_smsub#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "guia_zeladoria_smsub#f0",
+          "psiu_barulho#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f4",
+          "guia_zeladoria_smsub#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f1",
+          "guia_zeladoria_smsub#f5",
+          "cata_bagulho#f0",
+          "iluminacao_faq#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#f2",
+          "iluminacao_manutencao#f0",
+          "psiu_barulho#f3",
+          "guia_zeladoria_smsub#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f3",
+          "psiu_barulho#f4",
+          "iluminacao_faq#f2",
+          "canais_sp156#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f4",
+          "psiu_barulho#f5",
+          "psiu_barulho#f0",
+          "psiu_barulho#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#f1",
+          "psiu_barulho#f4",
+          "psiu_barulho#f0",
+          "guia_zeladoria_smsub#f5"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f4",
+          "tapa_buraco_ipiranga#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f1",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f3",
+          "canais_sp156#f1",
+          "iluminacao_manutencao#f2",
+          "canais_sp156#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f0",
+          "canais_sp156#f2",
+          "tapa_buraco_ipiranga#f0",
+          "cata_bagulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f3",
+          "iluminacao_manutencao#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f3",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 120 pal. / overlap 30 | hybrid+boost": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_sapopemba#f3"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f4",
+          "iluminacao_faq#f0",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f3"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_manutencao#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f4",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f2",
+          "iluminacao_faq#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "cata_bagulho#f1",
+          "ecopontos#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "psiu_barulho#f3",
+          "guia_zeladoria_smsub#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "ecopontos#f1",
+          "cata_bagulho#f0",
+          "cata_bagulho#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "cata_bagulho#f1",
+          "ecopontos#f1"
+        ],
+        "doc_hit": false,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f1",
+          "cata_bagulho#f0",
+          "cata_bagulho#f2",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#f3",
+          "psiu_barulho#f5",
+          "psiu_barulho#f2",
+          "psiu_barulho#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f3",
+          "psiu_barulho#f4",
+          "psiu_barulho#f2",
+          "psiu_barulho#f5"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f4",
+          "psiu_barulho#f5",
+          "psiu_barulho#f0",
+          "psiu_barulho#f3"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "psiu_barulho#f4",
+          "psiu_barulho#f0",
+          "psiu_barulho#f5",
+          "psiu_barulho#f3"
+        ],
+        "doc_hit": true,
+        "evid": 0.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "bocas_de_lobo#f1",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f4"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f3",
+          "canais_sp156#f1",
+          "iluminacao_manutencao#f2",
+          "canais_sp156#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f0",
+          "canais_sp156#f2",
+          "tapa_buraco_ipiranga#f0",
+          "cata_bagulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f3",
+          "iluminacao_manutencao#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f2",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f3",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 250 pal. / overlap 50 | bm25": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_ampliacao#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "tapa_buraco_sapopemba#f1",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f1",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f2",
+          "iluminacao_manutencao#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "psiu_barulho#f0",
+          "psiu_barulho#f1",
+          "guia_zeladoria_smsub#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f0",
+          "psiu_barulho#f2",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f2",
+          "bocas_de_lobo#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f2",
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "psiu_barulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f1",
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f1",
+          "canais_sp156#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f2",
+          "psiu_barulho#f1",
+          "psiu_barulho#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#f0",
+          "psiu_barulho#f2",
+          "guia_zeladoria_smsub#f2",
+          "psiu_barulho#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "tapa_buraco_ipiranga#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f1",
+          "guia_zeladoria_smsub#f0",
+          "ecopontos#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 250 pal. / overlap 50 | dense": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f1",
+          "psiu_barulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f2",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "guia_zeladoria_smsub#f1",
+          "iluminacao_faq#f0",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f1",
+          "psiu_barulho#f2",
+          "tapa_buraco_sapopemba#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f2",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "reparacao_danos#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "psiu_barulho#f1",
+          "psiu_barulho#f0",
+          "guia_zeladoria_smsub#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f0",
+          "psiu_barulho#f2",
+          "psiu_barulho#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f1",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f0",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#f0",
+          "psiu_barulho#f1",
+          "iluminacao_faq#f1",
+          "guia_zeladoria_smsub#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f1",
+          "canais_sp156#f0",
+          "guia_zeladoria_smsub#f2",
+          "guia_zeladoria_smsub#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f2",
+          "psiu_barulho#f1",
+          "psiu_barulho#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "canais_sp156#f0",
+          "cata_bagulho#f0",
+          "psiu_barulho#f1",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "iluminacao_faq#f0",
+          "guia_zeladoria_smsub#f1",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "tapa_buraco_ipiranga#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f1",
+          "iluminacao_manutencao#f0",
+          "ecopontos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 250 pal. / overlap 50 | hybrid": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "tapa_buraco_ipiranga#f0",
+          "psiu_barulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f2",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "guia_zeladoria_smsub#f1",
+          "cata_bagulho#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "psiu_barulho#f0",
+          "psiu_barulho#f1",
+          "guia_zeladoria_smsub#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f0",
+          "psiu_barulho#f2",
+          "psiu_barulho#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f2",
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f2",
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f1",
+          "psiu_barulho#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f1",
+          "canais_sp156#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f2",
+          "psiu_barulho#f1",
+          "psiu_barulho#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "cata_bagulho#f0",
+          "psiu_barulho#f1",
+          "psiu_barulho#f2",
+          "psiu_barulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "guia_zeladoria_smsub#f1",
+          "cata_bagulho#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "reparacao_danos#f0",
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "tapa_buraco_ipiranga#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f1",
+          "ecopontos#f0",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0",
+          "tapa_buraco_ipiranga#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    },
+    "fixo 250 pal. / overlap 50 | hybrid+boost": {
+      "Q01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q02": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q03": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_ipiranga#f0",
+          "tapa_buraco_sapopemba#f1",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q04": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q05": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q06": {
+        "top": [
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f2",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "Q07": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_ampliacao#f0",
+          "iluminacao_faq#f1"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q08": {
+        "top": [
+          "iluminacao_faq#f0",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q09": {
+        "top": [
+          "iluminacao_ampliacao#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f1",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q10": {
+        "top": [
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_faq#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q11": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "tapa_buraco_sapopemba#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q12": {
+        "top": [
+          "ecopontos#f0",
+          "psiu_barulho#f0",
+          "psiu_barulho#f1",
+          "guia_zeladoria_smsub#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q13": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f0",
+          "psiu_barulho#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q14": {
+        "top": [
+          "ecopontos#f0",
+          "cata_bagulho#f0",
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f2"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q15": {
+        "top": [
+          "cata_bagulho#f0",
+          "ecopontos#f0",
+          "guia_zeladoria_smsub#f2",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q16": {
+        "top": [
+          "psiu_barulho#f1",
+          "psiu_barulho#f2",
+          "psiu_barulho#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q17": {
+        "top": [
+          "psiu_barulho#f1",
+          "psiu_barulho#f2",
+          "psiu_barulho#f0",
+          "canais_sp156#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q18": {
+        "top": [
+          "psiu_barulho#f2",
+          "psiu_barulho#f1",
+          "psiu_barulho#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q19": {
+        "top": [
+          "psiu_barulho#f1",
+          "psiu_barulho#f2",
+          "psiu_barulho#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q20": {
+        "top": [
+          "bocas_de_lobo#f0",
+          "guia_zeladoria_smsub#f1",
+          "cata_bagulho#f0",
+          "iluminacao_faq#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q21": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q22": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q23": {
+        "top": [
+          "canais_sp156#f1",
+          "canais_sp156#f0",
+          "tapa_buraco_ipiranga#f0",
+          "cata_bagulho#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "Q24": {
+        "top": [
+          "guia_zeladoria_smsub#f0",
+          "guia_zeladoria_smsub#f1",
+          "ecopontos#f0",
+          "iluminacao_manutencao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      },
+      "M01": {
+        "top": [
+          "tapa_buraco_sapopemba#f0",
+          "tapa_buraco_sapopemba#f1",
+          "tapa_buraco_ipiranga#f0",
+          "reparacao_danos#f0"
+        ],
+        "doc_hit": false,
+        "evid": 0.0
+      },
+      "M02": {
+        "top": [
+          "iluminacao_manutencao#f0",
+          "iluminacao_faq#f0",
+          "iluminacao_manutencao#f1",
+          "iluminacao_ampliacao#f0"
+        ],
+        "doc_hit": true,
+        "evid": 1.0
+      }
+    }
+  }
+}

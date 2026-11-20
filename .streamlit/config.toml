@@ -1,0 +1,8 @@
+# Desliga o "file watcher" do Streamlit. Sem isso, ele inspeciona todos os módulos
+# do transformers (importado pelo sentence-transformers) e enche o terminal de
+# tracebacks "No module named 'torchvision'" — inofensivos, mas poluem o log.
+[server]
+fileWatcherType = "none"
+
+[logger]
+level = "error"
